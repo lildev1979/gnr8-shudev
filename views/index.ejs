@@ -1,0 +1,120 @@
+<%- include("partials/header.ejs") %>
+<!-- The main body of the page-->
+<div id="mainDiv">
+  <section class="heroBackground">
+    <div class="hero">
+      <video autoplay muted loop playbackRate="0.3" id="heroVideo">
+        <source src="videos/heroVid.mp4" type="video/mp4">
+      </video>
+      <div class="heroVidOverlay">
+        <div class="leftHero">
+          
+          <ul class="heroList">
+            <li class="herolistitem"><span class="listBullet">-</span> Bespoke Storage</li>
+            <li class="herolistitem"><span class="listBullet">-</span> Flexible Business space</li>
+            <li class="herolistitem"><span class="listBullet">-</span> Property Development</li>
+            <li class="herolistitem"><span class="listBullet">-</span> Residential Leasing</li>
+            <li class="herolistitem "><button class="btn btn-success heroButton" onclick="showContactModal()">CONTACT US</button></li>
+          </ul>
+        </div>
+        <div class="heroLogo">
+          <img src="images/shudev.png" alt="" width="100%" class = "rightLOGO">
+        </div>
+        <h1 id="heroTag">Storage and Spaces Tailored to Embrace Your Needs! </h1>
+      </div>
+    </div>
+   
+    <section id="about" class="contentSection">
+      <div class="sectionHeader">
+        <div class="sectionInner container">
+          <h1 class="sectionTitle">About Us</h1>
+        </div>
+      </div>
+      <div class="sectionBody container">
+        <div class="BodyHeader">
+          <h3>Introducing SHU Developments: Your Premier Destination for Storage and Business Spaces in Cupar, Fife!</h3>
+        </div>
+        <div class="bodyContent">
+          <div class="blurbContainer">
+            <p class="bodyBlurb">
+              Unlock the potential of your business with SHU Developments. 
+              We are your ultimate solution for bespoke commercial and 
+              domestic container storage, 
+              as well as flexible business spaces in the vibrant city of Cupar, Fife.
+            </p>
+            <p class="bodyBlurb">
+              At SHU Developments, 
+              we understand that every business has unique storage and workspace needs. 
+              That's why we offer a wide range of options tailored to suit your specific requirements. 
+              <br> From secure and reliable container storage facilities 
+              to flexible and modern business spaces, <strong> we have it all.</strong>
+            </p>
+            <p class="bodyBlurb">
+              Our commitment to excellence extends beyond providing top-quality properties. 
+              As a private landlord, we take pride in offering clean, 
+              modern, and refurbished spaces that are designed to meet the highest standards. 
+              Whether you're a thriving startup, an expanding enterprise, 
+              or a discerning homeowner, SHU Developments has the perfect solution for you.
+            </p>
+            <p class="bodyBlurb">
+              Experience the convenience and peace of mind that comes with our comprehensive storage
+               and workspace solutions. 
+               Our dedicated team of professionals is here to ensure your experience with us is
+                seamless, from the moment you step through our doors.
+            </p>
+
+          </div>
+
+          <div class="imageCard">
+            <div class="cardImageAbout1">
+
+            </div>
+            <div class="cardCaptionAbout">
+              <div>
+                One of our amazing Secure Storage units
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sectionBody container">
+        <div class="bodyContent row-reverse">
+          <div class="blurbContainer">
+            <p class="bodyBlurb">
+              Unlock the potential of your business with SHU Developments. 
+              We are your ultimate solution for bespoke commercial and 
+              domestic container storage, 
+              as well as flexible business spaces in the vibrant city of Cupar, Fife.
+            </p>
+            <p class="bodyBlurb">
+              Unlock Possibilities, Secure Success with SHU Developments!
+            </p>
+
+          </div>
+          <div class="imageCard">
+            <div class="cardImageAbout2">
+
+            </div>
+            <div class="cardCaptionAbout">
+              <div>
+                View of our Containers
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="Services" class="contentSection">
+      <div class="sectionHeader">
+        <div class="sectionInner container">
+          <h1 class="sectionTitle">Our Services</h1>
+        </div>
+      </div>
+    </section>
+</div>
+
+<%- include("partials/footer.ejs") %>
+

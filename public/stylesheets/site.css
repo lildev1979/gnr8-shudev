@@ -1,0 +1,433 @@
+
+:root {
+    --mainColor: #f2c445;
+    --white: #ffffff;
+    --shuGreen: #5ac659;
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+
+  margin-right: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+#mainNav {
+    /* background-color: var(--mainColor); */
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    transition: all 0.2s;
+}
+
+#mainNav.fade-in{
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px -2px gray;
+}
+
+.rightnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navItem {
+    text-decoration: none;
+    color: black;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    padding: 10px;
+    
+    /* border-bottom: 2px solid var(--shuGreen);
+    padding: 0.4rem 0.75rem;
+    
+    border-radius: 10%; */
+    transition: all 0.1s ease;
+    font-weight:bold ;
+    
+}
+
+.navItem:hover {
+
+    /* border-bottom: 2px solid white;
+    background: var(--shuGreen); */
+    color: var(--shuGreen);
+}
+
+.btn-success, .btn-success:active, .btn-success:visited {
+    background-color: var(--shuGreen) !important;
+    border-color: var(--shuGreen);
+    font-weight: 600;
+}
+
+.navbar-collapse.collapse.show, .navbar-collapse.collapsing{
+    background-color: white;
+}
+
+#navbarSupportedContent {
+    justify-content: flex-end;
+}
+
+/* hero section */
+.heroBackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+.hero {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+#heroVideo {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    opacity: 30%;
+    z-index: -10;
+
+}
+
+.heroVidOverlay {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    /* transform: translateY(-10%); */
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.heroLogo {
+    max-width: 80%;
+    min-width: 360px;
+}
+#heroTag {
+padding: 10px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.herolistitem {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.heroButton {
+    width: 100%;
+    height: 90px;
+    font-size: 50px;
+    color: black;
+}
+
+
+/* About Section */
+
+.contentSection {
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+.sectionHeader {
+    background-color: var(--shuGreen);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    /* opacity: 70%; */
+    box-shadow: 0px 2px 4px -2px grey;
+}
+
+.sectionTitle {
+    font-weight: 800;
+}
+
+.BodyHeader {
+    margin-top: 20px;
+}
+.bodyContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.sectionBody {
+    margin-top: 20px;
+}
+
+.blurbContainer{
+    width: 50%;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imageCard {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px;
+    height: fit-content;
+    /* background-color: grey; */
+    overflow: hidden;
+    border: 1px solid var(--shuGreen);
+    box-shadow: 2px 2px 4px -1px var(--shuGreen);
+    align-self: center;
+}
+
+.cardImageAbout1{
+    background-image: url('../images/storageProf.jpg');
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.cardImageAbout2{
+    background-image: url('../images/storageProf2.jpg');
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.cardCaptionAbout{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+@media only screen and  (max-width: 1000px) {
+    .blurbContainer{
+        width: 100%;
+        font-size: 1.6em;
+
+    }
+    .bodyContent{
+
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .imageCard {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .blurbContainer{
+        font-size: 1.2em;
+    }
+}
+
+/* hero responsive code */
+
+
+@media screen and (max-width: 450px) and (max-height: 950px){
+    .heroLogo {
+        max-width: 50%;
+        min-width: 250px;
+    }
+    #heroTag {
+    padding: 10px;
+        font-weight: 500;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .herolistitem {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    .heroButton {
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        color: black;
+    }
+}
+
+@media screen  and (max-height: 950px){
+    .heroLogo {
+        max-width: 50%;
+        min-width: 250px;
+    }
+    #heroTag {
+    padding: 10px;
+        font-weight: 500;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .herolistitem {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    .heroButton {
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        color: black;
+    }
+}
+
+@media screen and (max-height: 601px){
+    .heroLogo {
+        max-width: 50%;
+    }
+    #heroTag {
+    padding: 10px;
+        font-weight: 500;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .herolistitem {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    .heroButton {
+        width: 100%;
+        height: 30px;
+        font-size: 13px;
+        color: black;
+    }
+}
+
+@media screen and (max-height: 380px){
+    .heroLogo {
+        display: none;
+    }
+    #heroTag {
+    padding: 10px;
+        font-weight: 500;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .herolistitem {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    .heroButton {
+        width: 100%;
+        height: 30px;
+        font-size: 13px;
+        color: black;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ContactDialog {
+    width: 80vw;
+    height: fit-content;
+    border: none;
+    background-color: var(--mainColor);
+    border-radius: 1%;
+}
+
+.contactLink {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /*color: black;
+    font-size: 2rem;*/
+}
+.dismissDiv {
+    float: right;
+}
+.dismissDiv:hover {
+    cursor:pointer;
+    
+}
+
+.Contactform {
+    margin-top: 20px;
+}
+
+.submitbtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

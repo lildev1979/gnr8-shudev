@@ -1,0 +1,221 @@
+
+:root {
+    --mainColor: #f2c445;
+    --white: #ffffff;
+    --shuGreen: #5ac659;
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+
+  margin-right: 5px;
+}
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+#mainNav {
+    background-color: var(--mainColor);
+}
+
+.rightnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navItem {
+    text-decoration: none;
+    color: black;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    padding: 10px;
+    
+    /* border-bottom: 2px solid var(--shuGreen);
+    padding: 0.4rem 0.75rem;
+    
+    border-radius: 10%; */
+    transition: all 0.1s ease;
+    font-weight:bold ;
+    
+}
+
+.navItem:hover {
+
+    /* border-bottom: 2px solid white;
+    background: var(--shuGreen); */
+    color: white;
+}
+
+.btn-success, .btn-success:active, .btn-success:visited {
+    background-color: var(--shuGreen) !important;
+    border-color: var(--shuGreen);
+    font-weight: 600;
+}
+
+.heroBackground {
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.heroBackground::before {
+    content: "";
+    position: absolute;
+    background-image: url("../images/heroBack.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 40%;
+
+
+}
+
+.hero {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    /* align-items:flex-start; */
+    justify-content: space-between;
+
+    
+}
+
+@media only screen and (min-width: 576px){
+
+    .heroBackground {
+        min-height: 400px;
+        max-height: 500px;
+    } 
+    .rightHero {
+        max-height: 286px;
+    }
+    .leftHero {
+        max-height: 286px;
+    }
+    .hero {
+        min-height: 10vh;
+    }
+}
+
+
+
+h3#heroTag {
+    font-weight: 800;
+}
+.leftHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rightHero  {
+    content: "";
+    width: 50%;
+    min-width: 30%;
+    height: auto;
+    min-height: 10vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+.heroList{
+    margin-top: 10px;
+
+}
+.herolistitem {
+
+    padding-left: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+.mainContent {
+    
+}
+.contentSection {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.photosection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contentPhoto {
+    padding: 10px;
+    width: auto;
+
+    background-color: var(--mainColor);
+}
+
+#navbarSupportedContent {
+    justify-content: flex-end;
+}
+
+
+#ContactDialog {
+    width: 80vw;
+    height: fit-content;
+    border: none;
+    background-color: var(--mainColor);
+    border-radius: 1%;
+}
+
+.contactLink {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /*color: black;
+    font-size: 2rem;*/
+}
+.dismissDiv {
+    float: right;
+}
+.dismissDiv:hover {
+    cursor:pointer;
+    
+}
+
+.Contactform {
+    margin-top: 20px;
+}
+
+.submitbtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

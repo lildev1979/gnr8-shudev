@@ -1,0 +1,58 @@
+<dialog id="ContactDialog">
+    <div class="dismissDiv" onclick="dismissModal()">
+      <span class="material-icons">
+        cancel
+      </span>
+    </div>
+    <h3>Contact Us</h3>
+
+    <hr>
+    <h4 class="labelmail">You can send us an email using the form below:</h4>
+
+    <form class = "Contactform" action="mailto:recipient@example.com" method="get" enctype="text/plain">
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Name"><br>
+      </div>
+      <div class="form-group">
+      <label for="email">Your Email:</label>
+      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      
+      </div>
+      <br>
+      <div class="form-group">
+      <label for="body">Message:</label>
+      <textarea name="body" id="body" class="form-control" rows="5" cols="30" placeholder="Your Message"></textarea>
+      </div>
+      <input class="btn btn-primary submitbtn" type="submit" value="Send">
+    </form>
+    <p class="""">Alternatively, Click one of the buttons below to get in touch:</p>
+    <ul>
+      <li>
+        <a class="contactLink btn btn-primary" href="sms:07877207225&body=Hi, Im interested in your services, please could you...">
+          <span class="material-symbols-outlined">sms
+          </span> SMS</a>
+      </li>
+      <li>
+        <a class="contactLink btn btn-primary" href="tel:07877207225"><span class="material-symbols-outlined">
+          add_call
+          </span>Telephone</a>
+      </li>
+    </ul>
+  </dialog>
+<div class="footerDiv">
+    <div class="info">
+
+    </div>
+    <div class="blurb">
+
+    </div>
+    <div class="right">
+
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="javascripts/main.js"></script>
+</body>
+</html>
