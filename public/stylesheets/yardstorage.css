@@ -85,11 +85,14 @@
     background-color:firebrick;
 }
 .YardCardImageOverlay.available span::after{
-    content: "TO LET";
+    content: "AVAILABLE";
+    font-weight: bold;
 }
 
 .YardCardImageOverlay.occupied span::after{
     content: "LET";
+    font-weight: bold;
+    font-size: large;
 }
 
 .Yard-details{
