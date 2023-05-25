@@ -5,9 +5,25 @@
 #heroImage.propertyHero {
     background-image: url("../images/propertyhero.webp");
     height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 
 .heroOverlay.propertyHeroOverlay {
     height: 100%;
+}
+.benefitFlex.property {
+    text-decoration: none;
+    color: black;
+    border: 1px solid var(--shuGreen);
+    width: fit-content;
+    padding: 5px 10px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+.iconDiv.property {
+    padding-top: 5px;
 }
