@@ -141,6 +141,8 @@ video {
 
 #heroImage.indexHero {
     background-image: url("/images/Hero Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
