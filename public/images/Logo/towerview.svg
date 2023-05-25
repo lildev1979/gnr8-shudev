@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 169.34">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: .02em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-10 {
+        letter-spacing: .02em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        font-family: AcuminConcept-WideBold, 'Acumin Variable Concept';
+        font-size: 30.99px;
+        font-variation-settings: 'wght' 700, 'wdth' 115, 'slnt' 0;
+      }
+
+      .cls-14, .cls-15 {
+        font-weight: 700;
+      }
+
+      .cls-16 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        font-family: AcuminConcept-Bold, 'Acumin Variable Concept';
+        font-size: 55.67px;
+        font-variation-settings: 'wght' 700, 'wdth' 100, 'slnt' 0;
+      }
+    </style>
+  </defs>
+  <text class="cls-15" transform="translate(0 78.86) scale(1.17 1)"><tspan class="cls-16" x="0" y="0">T</tspan><tspan class="cls-18" x="31.51" y="0">O</tspan><tspan class="cls-19" x="73.71" y="0">W</tspan><tspan class="cls-11" x="126.1" y="0">E</tspan><tspan class="cls-10" x="160.34" y="0">R</tspan><tspan class="cls-3" x="198.25" y="0">VI</tspan><tspan class="cls-5" x="253.08" y="0">E</tspan><tspan x="288.66" y="0">W</tspan></text>
+  <text class="cls-14" transform="translate(9.79 161.22) scale(1.19 1)"><tspan class="cls-7" x="0" y="0">IND</tspan><tspan class="cls-6" x="63.35" y="0">U</tspan><tspan class="cls-17" x="88.67" y="0">S</tspan><tspan class="cls-13" x="111.67" y="0">T</tspan><tspan class="cls-8" x="133.09" y="0">R</tspan><tspan class="cls-4" x="157.38" y="0">I</tspan><tspan class="cls-7" x="168.48" y="0">A</tspan><tspan class="cls-1" x="193.27" y="0">L </tspan><tspan class="cls-9" x="222.78" y="0">P</tspan><tspan class="cls-12" x="244.45" y="0">A</tspan><tspan class="cls-2" x="269.24" y="0">R</tspan><tspan x="293.54" y="0">K</tspan></text>
+  <g>
+    <polygon points="129.3 35.94 137.45 35.94 137.45 6.96 174.16 6.96 174.16 0 129.3 0 129.3 35.94"/>
+    <polygon points="262.4 113.66 228.48 113.66 228.48 120.62 270.55 120.62 270.55 82.34 262.4 82.34 262.4 113.66"/>
+    <polygon points="228.48 0 228.48 6.96 262.4 6.96 262.4 35.94 270.55 35.94 270.55 0 228.48 0"/>
+    <polygon points="137.45 82.34 129.3 82.34 129.3 120.62 174.16 120.62 174.16 113.66 137.45 113.66 137.45 82.34"/>
+  </g>
+</svg>

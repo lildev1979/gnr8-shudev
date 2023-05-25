@@ -1,0 +1,13 @@
+.heroBackground.propertyHeroBackground {
+    height: 50vh;
+}
+
+#heroImage.propertyHero {
+    background-image: url("../images/propertyhero.webp");
+    height: 50%;
+
+}
+
+.heroOverlay.propertyHeroOverlay {
+    height: 100%;
+}

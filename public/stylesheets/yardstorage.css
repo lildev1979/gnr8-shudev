@@ -1,0 +1,119 @@
+.heroBackground.yardHeroBackground {
+    height: 50vh;
+}
+
+#heroImage.yardHero {
+    background-image: url("../images/yard/yard2.jpg");
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.heroOverlay.yardHeroOverlay {
+    height: 100%;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.towerViewBackground {
+
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: var(--mainColor); */
+    opacity: 80%;
+    max-width: 300px;
+
+}
+
+.pricing {
+    margin-top: 20px;
+}
+
+
+/* YARD CARDS AREA */
+
+.yardcard {
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid var(--shuGreen);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.yardList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+.yardimage {
+    height: 300px;
+    width: 100%;
+
+}
+
+.YardCardimage {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.YardCardImageOverlay{
+    border-radius: 0px 0px 10px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.YardCardImageOverlay.available{
+    background-color: var(--shuGreen);
+}
+
+.YardCardImageOverlay.occupied{
+    background-color:firebrick;
+}
+.YardCardImageOverlay.available span::after{
+    content: "TO LET";
+}
+
+.YardCardImageOverlay.occupied span::after{
+    content: "LET";
+}
+
+.Yard-details{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardContentTitle{
+    background-color: var(--shuGreen);
+    width: 100%;
+    text-align: center;
+}
+.cardContentList{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: large;
+    
+}
+
+
+
