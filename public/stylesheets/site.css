@@ -627,7 +627,7 @@ z-index: 2;}
 
 .border-right {
 
-    width: 50%;
+    width: fit-content;
 }
 .Address {
     margin: 0px;
