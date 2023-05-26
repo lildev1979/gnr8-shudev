@@ -595,6 +595,7 @@ z-index: 2;}
 
 /* Footer */
 .footerDiv {
+    margin-top: 40px;
     width: 100%;
     height: fit-content;
     background-color: var(--shuGreen);
@@ -605,6 +606,7 @@ z-index: 2;}
     padding: 10px 5px 10px 5px;
     color: white;
 }
+
 .footerContent{
     display: flex;
     flex-direction: row;
