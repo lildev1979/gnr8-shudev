@@ -590,12 +590,15 @@ z-index: 2;}
     background-repeat: no-repeat;
 }
 
-
+.bottomContent{
+    height: 40px;
+    width: 100px;
+    display: block;
+}
 
 
 /* Footer */
 .footerDiv {
-    margin-top: 40px;
     width: 100%;
     height: fit-content;
     background-color: var(--shuGreen);
