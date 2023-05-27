@@ -560,18 +560,29 @@ z-index: 2;}
    }
 }
 
+
+
 .carousel {
     height: 300px;
     border-radius: 5px;
-    overflow: hidden;
+    width: 100%;
+
 }
 
-#slide1{
-    background-image: url(../images/tweed/29-tweed-crescent-after-landing.jpg);
+.testmargin{
+    margin: 20px;
+}
+
+.slide{
+    border-radius: 10px;
     height: 300px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+    /* margin: 10px; */
+    padding: 10px;
 }
 
 #slide2{
@@ -580,6 +591,7 @@ z-index: 2;}
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #slide3{
@@ -588,6 +600,7 @@ z-index: 2;}
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .bottomContent{
